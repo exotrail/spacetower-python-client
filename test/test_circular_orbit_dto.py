@@ -15,7 +15,7 @@
 
 import unittest
 
-from fds_api_gen_client.models.circular_orbit_dto import CircularOrbitDto
+from spacetower_python_client.models.circular_orbit_dto import CircularOrbitDto
 
 class TestCircularOrbitDto(unittest.TestCase):
     """CircularOrbitDto unit test stubs"""

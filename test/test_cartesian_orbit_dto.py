@@ -15,7 +15,7 @@
 
 import unittest
 
-from fds_api_gen_client.models.cartesian_orbit_dto import CartesianOrbitDto
+from spacetower_python_client.models.cartesian_orbit_dto import CartesianOrbitDto
 
 class TestCartesianOrbitDto(unittest.TestCase):
     """CartesianOrbitDto unit test stubs"""

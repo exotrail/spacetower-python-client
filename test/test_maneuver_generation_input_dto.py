@@ -15,7 +15,7 @@
 
 import unittest
 
-from fds_api_gen_client.models.maneuver_generation_input_dto import ManeuverGenerationInputDto
+from spacetower_python_client.models.maneuver_generation_input_dto import ManeuverGenerationInputDto
 
 class TestManeuverGenerationInputDto(unittest.TestCase):
     """ManeuverGenerationInputDto unit test stubs"""

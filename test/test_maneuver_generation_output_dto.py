@@ -15,7 +15,7 @@
 
 import unittest
 
-from fds_api_gen_client.models.maneuver_generation_output_dto import ManeuverGenerationOutputDto
+from spacetower_python_client.models.maneuver_generation_output_dto import ManeuverGenerationOutputDto
 
 class TestManeuverGenerationOutputDto(unittest.TestCase):
     """ManeuverGenerationOutputDto unit test stubs"""
@@ -40,10 +40,10 @@ class TestManeuverGenerationOutputDto(unittest.TestCase):
                 delta_inclination = 1.337,
                 delta_semi_major_axis = 1.337,
                 id = '',
-                initial_orbital_state = fds_api_gen_client.models.orbital_state_dto.OrbitalStateDto(
+                initial_orbital_state = spacetower_python_client.models.orbital_state_dto.OrbitalStateDto(
                     covariance_matrix_id = '', 
                     creation_date = '', 
-                    fitted_tle = fds_api_gen_client.models.tle.TLE(
+                    fitted_tle = spacetower_python_client.models.tle.TLE(
                         line1 = '', 
                         line2 = '', ), 
                     id = '', 
@@ -55,7 +55,7 @@ class TestManeuverGenerationOutputDto(unittest.TestCase):
                 maximum_duration = 1.337,
                 quaternion_step = 1.337,
                 required_output_orbital_states = 'ALL',
-                strategy = fds_api_gen_client.models.maneuver_strategy_dto.ManeuverStrategyDto(
+                strategy = spacetower_python_client.models.maneuver_strategy_dto.ManeuverStrategyDto(
                     id = '', 
                     number_of_rest_orbits = 56, 
                     number_of_shift_orbits = 56, 

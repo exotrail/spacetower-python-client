@@ -15,7 +15,7 @@
 
 import unittest
 
-from fds_api_gen_client.models.equinoctial_orbit_dto import EquinoctialOrbitDto
+from spacetower_python_client.models.equinoctial_orbit_dto import EquinoctialOrbitDto
 
 class TestEquinoctialOrbitDto(unittest.TestCase):
     """EquinoctialOrbitDto unit test stubs"""

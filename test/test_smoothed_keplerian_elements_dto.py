@@ -15,7 +15,7 @@
 
 import unittest
 
-from fds_api_gen_client.models.smoothed_keplerian_elements_dto import SmoothedKeplerianElementsDto
+from spacetower_python_client.models.smoothed_keplerian_elements_dto import SmoothedKeplerianElementsDto
 
 class TestSmoothedKeplerianElementsDto(unittest.TestCase):
     """SmoothedKeplerianElementsDto unit test stubs"""

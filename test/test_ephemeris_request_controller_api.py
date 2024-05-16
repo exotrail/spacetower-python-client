@@ -15,7 +15,7 @@
 
 import unittest
 
-from fds_api_gen_client.api.ephemeris_request_controller_api import EphemerisRequestControllerApi
+from spacetower_python_client.api.ephemeris_request_controller_api import EphemerisRequestControllerApi
 
 
 class TestEphemerisRequestControllerApi(unittest.TestCase):

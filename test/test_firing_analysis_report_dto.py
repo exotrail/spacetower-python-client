@@ -15,7 +15,7 @@
 
 import unittest
 
-from fds_api_gen_client.models.firing_analysis_report_dto import FiringAnalysisReportDto
+from spacetower_python_client.models.firing_analysis_report_dto import FiringAnalysisReportDto
 
 class TestFiringAnalysisReportDto(unittest.TestCase):
     """FiringAnalysisReportDto unit test stubs"""
@@ -46,7 +46,7 @@ class TestFiringAnalysisReportDto(unittest.TestCase):
                     datetime.datetime.strptime('2013-10-20 19:20:30.00', '%Y-%m-%d %H:%M:%S.%f')
                     ],
                 processed_analyses = [
-                    fds_api_gen_client.models.firing_analysis_dto.FiringAnalysisDto(
+                    spacetower_python_client.models.firing_analysis_dto.FiringAnalysisDto(
                         argument_of_perigee_delta = 1.337, 
                         date = '', 
                         eccentricity_delta = 1.337, 
@@ -59,7 +59,7 @@ class TestFiringAnalysisReportDto(unittest.TestCase):
                         inclination_delta = 1.337, 
                         raan_delta = 1.337, 
                         semi_major_axis_delta = 1.337, 
-                        smoothed_keplerian_elements_after_firing = fds_api_gen_client.models.smoothed_keplerian_elements_dto.SmoothedKeplerianElementsDto(
+                        smoothed_keplerian_elements_after_firing = spacetower_python_client.models.smoothed_keplerian_elements_dto.SmoothedKeplerianElementsDto(
                             argument_of_perigee = 1.337, 
                             argument_of_perigee_standard_deviation = 1.337, 
                             eccentricity = 1.337, 
@@ -71,7 +71,7 @@ class TestFiringAnalysisReportDto(unittest.TestCase):
                             raan_standard_deviation = 1.337, 
                             semi_major_axis = 1.337, 
                             semi_major_axis_standard_deviation = 1.337, ), 
-                        smoothed_keplerian_elements_before_firing = fds_api_gen_client.models.smoothed_keplerian_elements_dto.SmoothedKeplerianElementsDto(
+                        smoothed_keplerian_elements_before_firing = spacetower_python_client.models.smoothed_keplerian_elements_dto.SmoothedKeplerianElementsDto(
                             argument_of_perigee = 1.337, 
                             argument_of_perigee_standard_deviation = 1.337, 
                             eccentricity = 1.337, 

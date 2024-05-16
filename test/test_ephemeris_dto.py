@@ -15,7 +15,7 @@
 
 import unittest
 
-from fds_api_gen_client.models.ephemeris_dto import EphemerisDto
+from spacetower_python_client.models.ephemeris_dto import EphemerisDto
 
 class TestEphemerisDto(unittest.TestCase):
     """EphemerisDto unit test stubs"""
@@ -39,14 +39,14 @@ class TestEphemerisDto(unittest.TestCase):
                 ephemeris_type = 'CARTESIAN',
                 id = '',
                 lines = [
-                    fds_api_gen_client.models.ephemeris_line_dto.EphemerisLineDto()
+                    spacetower_python_client.models.ephemeris_line_dto.EphemerisLineDto()
                     ]
             )
         else:
             return EphemerisDto(
                 ephemeris_type = 'CARTESIAN',
                 lines = [
-                    fds_api_gen_client.models.ephemeris_line_dto.EphemerisLineDto()
+                    spacetower_python_client.models.ephemeris_line_dto.EphemerisLineDto()
                     ],
         )
         """

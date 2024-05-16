@@ -15,7 +15,7 @@
 
 import unittest
 
-from fds_api_gen_client.models.ephemeris_request_dto import EphemerisRequestDto
+from spacetower_python_client.models.ephemeris_request_dto import EphemerisRequestDto
 
 class TestEphemerisRequestDto(unittest.TestCase):
     """EphemerisRequestDto unit test stubs"""
