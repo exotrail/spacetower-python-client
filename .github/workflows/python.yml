@@ -3,7 +3,7 @@
 #
 # ref: https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-python
 
-name: fds_api_gen_client Python package
+name: spacetower_python_client Python package
 
 on: [push, pull_request]
 
@@ -36,13 +36,3 @@ jobs:
       - name: Test with pytest
         run: |
           pytest
-      - name: Build package
-        run: |
-          python -m pip install poetry
-          poetry build
-      - name: Publish package
-        env:
-          PYPI_API_TOKEN: ${{ secrets.PYPI_API_TOKEN }}
-        run: |
-          python -m pip install --upgrade twine
-          echo $PYPI_API_TOKEN | python -m twine upload dist/* --repository-url https://upload.pypi.org/legacy/

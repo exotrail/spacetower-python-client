@@ -12,7 +12,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from fds_api_gen_client.models.orbit_determination_report_dto import OrbitDeterminationReportDto
+from spacetower_python_client.models.orbit_determination_report_dto import OrbitDeterminationReportDto
 
 # TODO update the JSON string below
 json = "{}"

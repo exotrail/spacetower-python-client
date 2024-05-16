@@ -1,4 +1,4 @@
-# fds_api_gen_client.TelemetryApi
+# spacetower_python_client.TelemetryApi
 
 All URIs are relative to *http://localhost*
 
@@ -21,35 +21,25 @@ Method | HTTP request | Description
 
 ### Example
 
-* Bearer (JWT) Authentication (bearer-key):
 
 ```python
-import fds_api_gen_client
-from fds_api_gen_client.models.gps_nmea_telemetry_dto import GpsNmeaTelemetryDto
-from fds_api_gen_client.rest import ApiException
+import spacetower_python_client
+from spacetower_python_client.models.gps_nmea_telemetry_dto import GpsNmeaTelemetryDto
+from spacetower_python_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to http://localhost
 # See configuration.py for a list of all supported configuration parameters.
-configuration = fds_api_gen_client.Configuration(
+configuration = spacetower_python_client.Configuration(
     host = "http://localhost"
 )
 
-# The client must configure the authentication and authorization parameters
-# in accordance with the API server security policy.
-# Examples for each auth method are provided below, use the example that
-# satisfies your auth use case.
-
-# Configure Bearer authorization (JWT): bearer-key
-configuration = fds_api_gen_client.Configuration(
-    access_token = os.environ["BEARER_TOKEN"]
-)
 
 # Enter a context with an instance of the API client
-with fds_api_gen_client.ApiClient(configuration) as api_client:
+with spacetower_python_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = fds_api_gen_client.TelemetryApi(api_client)
-    gps_nmea_telemetry_dto = fds_api_gen_client.GpsNmeaTelemetryDto() # GpsNmeaTelemetryDto | 
+    api_instance = spacetower_python_client.TelemetryApi(api_client)
+    gps_nmea_telemetry_dto = spacetower_python_client.GpsNmeaTelemetryDto() # GpsNmeaTelemetryDto | 
 
     try:
         api_response = api_instance.create_gps_nmea_telemetry(gps_nmea_telemetry_dto)
@@ -74,7 +64,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearer-key](../README.md#bearer-key)
+No authorization required
 
 ### HTTP request headers
 
@@ -96,35 +86,25 @@ Name | Type | Description  | Notes
 
 ### Example
 
-* Bearer (JWT) Authentication (bearer-key):
 
 ```python
-import fds_api_gen_client
-from fds_api_gen_client.models.gps_nmea_raw_telemetry_dto import GpsNmeaRawTelemetryDto
-from fds_api_gen_client.rest import ApiException
+import spacetower_python_client
+from spacetower_python_client.models.gps_nmea_raw_telemetry_dto import GpsNmeaRawTelemetryDto
+from spacetower_python_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to http://localhost
 # See configuration.py for a list of all supported configuration parameters.
-configuration = fds_api_gen_client.Configuration(
+configuration = spacetower_python_client.Configuration(
     host = "http://localhost"
 )
 
-# The client must configure the authentication and authorization parameters
-# in accordance with the API server security policy.
-# Examples for each auth method are provided below, use the example that
-# satisfies your auth use case.
-
-# Configure Bearer authorization (JWT): bearer-key
-configuration = fds_api_gen_client.Configuration(
-    access_token = os.environ["BEARER_TOKEN"]
-)
 
 # Enter a context with an instance of the API client
-with fds_api_gen_client.ApiClient(configuration) as api_client:
+with spacetower_python_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = fds_api_gen_client.TelemetryApi(api_client)
-    gps_nmea_raw_telemetry_dto = fds_api_gen_client.GpsNmeaRawTelemetryDto() # GpsNmeaRawTelemetryDto | 
+    api_instance = spacetower_python_client.TelemetryApi(api_client)
+    gps_nmea_raw_telemetry_dto = spacetower_python_client.GpsNmeaRawTelemetryDto() # GpsNmeaRawTelemetryDto | 
 
     try:
         api_response = api_instance.create_gps_nmea_telemetry_raw(gps_nmea_raw_telemetry_dto)
@@ -149,7 +129,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearer-key](../README.md#bearer-key)
+No authorization required
 
 ### HTTP request headers
 
@@ -171,35 +151,25 @@ Name | Type | Description  | Notes
 
 ### Example
 
-* Bearer (JWT) Authentication (bearer-key):
 
 ```python
-import fds_api_gen_client
-from fds_api_gen_client.models.gps_pv_telemetry_dto import GpsPvTelemetryDto
-from fds_api_gen_client.rest import ApiException
+import spacetower_python_client
+from spacetower_python_client.models.gps_pv_telemetry_dto import GpsPvTelemetryDto
+from spacetower_python_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to http://localhost
 # See configuration.py for a list of all supported configuration parameters.
-configuration = fds_api_gen_client.Configuration(
+configuration = spacetower_python_client.Configuration(
     host = "http://localhost"
 )
 
-# The client must configure the authentication and authorization parameters
-# in accordance with the API server security policy.
-# Examples for each auth method are provided below, use the example that
-# satisfies your auth use case.
-
-# Configure Bearer authorization (JWT): bearer-key
-configuration = fds_api_gen_client.Configuration(
-    access_token = os.environ["BEARER_TOKEN"]
-)
 
 # Enter a context with an instance of the API client
-with fds_api_gen_client.ApiClient(configuration) as api_client:
+with spacetower_python_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = fds_api_gen_client.TelemetryApi(api_client)
-    gps_pv_telemetry_dto = fds_api_gen_client.GpsPvTelemetryDto() # GpsPvTelemetryDto | 
+    api_instance = spacetower_python_client.TelemetryApi(api_client)
+    gps_pv_telemetry_dto = spacetower_python_client.GpsPvTelemetryDto() # GpsPvTelemetryDto | 
 
     try:
         api_response = api_instance.create_gps_pv_telemetry(gps_pv_telemetry_dto)
@@ -224,7 +194,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearer-key](../README.md#bearer-key)
+No authorization required
 
 ### HTTP request headers
 
@@ -246,35 +216,25 @@ Name | Type | Description  | Notes
 
 ### Example
 
-* Bearer (JWT) Authentication (bearer-key):
 
 ```python
-import fds_api_gen_client
-from fds_api_gen_client.models.optical_telemetry_dto import OpticalTelemetryDto
-from fds_api_gen_client.rest import ApiException
+import spacetower_python_client
+from spacetower_python_client.models.optical_telemetry_dto import OpticalTelemetryDto
+from spacetower_python_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to http://localhost
 # See configuration.py for a list of all supported configuration parameters.
-configuration = fds_api_gen_client.Configuration(
+configuration = spacetower_python_client.Configuration(
     host = "http://localhost"
 )
 
-# The client must configure the authentication and authorization parameters
-# in accordance with the API server security policy.
-# Examples for each auth method are provided below, use the example that
-# satisfies your auth use case.
-
-# Configure Bearer authorization (JWT): bearer-key
-configuration = fds_api_gen_client.Configuration(
-    access_token = os.environ["BEARER_TOKEN"]
-)
 
 # Enter a context with an instance of the API client
-with fds_api_gen_client.ApiClient(configuration) as api_client:
+with spacetower_python_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = fds_api_gen_client.TelemetryApi(api_client)
-    optical_telemetry_dto = fds_api_gen_client.OpticalTelemetryDto() # OpticalTelemetryDto | 
+    api_instance = spacetower_python_client.TelemetryApi(api_client)
+    optical_telemetry_dto = spacetower_python_client.OpticalTelemetryDto() # OpticalTelemetryDto | 
 
     try:
         api_response = api_instance.create_optical_telemetry(optical_telemetry_dto)
@@ -299,7 +259,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearer-key](../README.md#bearer-key)
+No authorization required
 
 ### HTTP request headers
 
@@ -321,35 +281,25 @@ Name | Type | Description  | Notes
 
 ### Example
 
-* Bearer (JWT) Authentication (bearer-key):
 
 ```python
-import fds_api_gen_client
-from fds_api_gen_client.models.radar_telemetry_dto import RadarTelemetryDto
-from fds_api_gen_client.rest import ApiException
+import spacetower_python_client
+from spacetower_python_client.models.radar_telemetry_dto import RadarTelemetryDto
+from spacetower_python_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to http://localhost
 # See configuration.py for a list of all supported configuration parameters.
-configuration = fds_api_gen_client.Configuration(
+configuration = spacetower_python_client.Configuration(
     host = "http://localhost"
 )
 
-# The client must configure the authentication and authorization parameters
-# in accordance with the API server security policy.
-# Examples for each auth method are provided below, use the example that
-# satisfies your auth use case.
-
-# Configure Bearer authorization (JWT): bearer-key
-configuration = fds_api_gen_client.Configuration(
-    access_token = os.environ["BEARER_TOKEN"]
-)
 
 # Enter a context with an instance of the API client
-with fds_api_gen_client.ApiClient(configuration) as api_client:
+with spacetower_python_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = fds_api_gen_client.TelemetryApi(api_client)
-    radar_telemetry_dto = fds_api_gen_client.RadarTelemetryDto() # RadarTelemetryDto | 
+    api_instance = spacetower_python_client.TelemetryApi(api_client)
+    radar_telemetry_dto = spacetower_python_client.RadarTelemetryDto() # RadarTelemetryDto | 
 
     try:
         api_response = api_instance.create_radar_telemetry(radar_telemetry_dto)
@@ -374,7 +324,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearer-key](../README.md#bearer-key)
+No authorization required
 
 ### HTTP request headers
 
@@ -396,33 +346,23 @@ Name | Type | Description  | Notes
 
 ### Example
 
-* Bearer (JWT) Authentication (bearer-key):
 
 ```python
-import fds_api_gen_client
-from fds_api_gen_client.rest import ApiException
+import spacetower_python_client
+from spacetower_python_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to http://localhost
 # See configuration.py for a list of all supported configuration parameters.
-configuration = fds_api_gen_client.Configuration(
+configuration = spacetower_python_client.Configuration(
     host = "http://localhost"
 )
 
-# The client must configure the authentication and authorization parameters
-# in accordance with the API server security policy.
-# Examples for each auth method are provided below, use the example that
-# satisfies your auth use case.
-
-# Configure Bearer authorization (JWT): bearer-key
-configuration = fds_api_gen_client.Configuration(
-    access_token = os.environ["BEARER_TOKEN"]
-)
 
 # Enter a context with an instance of the API client
-with fds_api_gen_client.ApiClient(configuration) as api_client:
+with spacetower_python_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = fds_api_gen_client.TelemetryApi(api_client)
+    api_instance = spacetower_python_client.TelemetryApi(api_client)
     id = 'id_example' # str | 
 
     try:
@@ -446,7 +386,7 @@ void (empty response body)
 
 ### Authorization
 
-[bearer-key](../README.md#bearer-key)
+No authorization required
 
 ### HTTP request headers
 
@@ -468,33 +408,23 @@ void (empty response body)
 
 ### Example
 
-* Bearer (JWT) Authentication (bearer-key):
 
 ```python
-import fds_api_gen_client
-from fds_api_gen_client.rest import ApiException
+import spacetower_python_client
+from spacetower_python_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to http://localhost
 # See configuration.py for a list of all supported configuration parameters.
-configuration = fds_api_gen_client.Configuration(
+configuration = spacetower_python_client.Configuration(
     host = "http://localhost"
 )
 
-# The client must configure the authentication and authorization parameters
-# in accordance with the API server security policy.
-# Examples for each auth method are provided below, use the example that
-# satisfies your auth use case.
-
-# Configure Bearer authorization (JWT): bearer-key
-configuration = fds_api_gen_client.Configuration(
-    access_token = os.environ["BEARER_TOKEN"]
-)
 
 # Enter a context with an instance of the API client
-with fds_api_gen_client.ApiClient(configuration) as api_client:
+with spacetower_python_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = fds_api_gen_client.TelemetryApi(api_client)
+    api_instance = spacetower_python_client.TelemetryApi(api_client)
     id = 'id_example' # str | 
 
     try:
@@ -520,7 +450,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearer-key](../README.md#bearer-key)
+No authorization required
 
 ### HTTP request headers
 
@@ -542,33 +472,23 @@ Name | Type | Description  | Notes
 
 ### Example
 
-* Bearer (JWT) Authentication (bearer-key):
 
 ```python
-import fds_api_gen_client
-from fds_api_gen_client.rest import ApiException
+import spacetower_python_client
+from spacetower_python_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to http://localhost
 # See configuration.py for a list of all supported configuration parameters.
-configuration = fds_api_gen_client.Configuration(
+configuration = spacetower_python_client.Configuration(
     host = "http://localhost"
 )
 
-# The client must configure the authentication and authorization parameters
-# in accordance with the API server security policy.
-# Examples for each auth method are provided below, use the example that
-# satisfies your auth use case.
-
-# Configure Bearer authorization (JWT): bearer-key
-configuration = fds_api_gen_client.Configuration(
-    access_token = os.environ["BEARER_TOKEN"]
-)
 
 # Enter a context with an instance of the API client
-with fds_api_gen_client.ApiClient(configuration) as api_client:
+with spacetower_python_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = fds_api_gen_client.TelemetryApi(api_client)
+    api_instance = spacetower_python_client.TelemetryApi(api_client)
 
     try:
         api_response = api_instance.retrieve_all5()
@@ -590,7 +510,7 @@ This endpoint does not need any parameter.
 
 ### Authorization
 
-[bearer-key](../README.md#bearer-key)
+No authorization required
 
 ### HTTP request headers
 

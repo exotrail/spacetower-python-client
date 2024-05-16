@@ -19,7 +19,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from fds_api_gen_client.models.maneuver_strategy_dto import ManeuverStrategyDto
+from spacetower_python_client.models.maneuver_strategy_dto import ManeuverStrategyDto
 
 # TODO update the JSON string below
 json = "{}"

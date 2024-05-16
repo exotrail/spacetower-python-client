@@ -14,7 +14,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from fds_api_gen_client.models.gps_pv_measurements_request_dto import GpsPvMeasurementsRequestDto
+from spacetower_python_client.models.gps_pv_measurements_request_dto import GpsPvMeasurementsRequestDto
 
 # TODO update the JSON string below
 json = "{}"

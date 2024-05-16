@@ -1,4 +1,4 @@
-# fds_api_gen_client.TLESGP4ExtrapolationApi
+# spacetower_python_client.TLESGP4ExtrapolationApi
 
 All URIs are relative to *http://localhost*
 
@@ -18,36 +18,26 @@ Method | HTTP request | Description
 
 ### Example
 
-* Bearer (JWT) Authentication (bearer-key):
 
 ```python
-import fds_api_gen_client
-from fds_api_gen_client.models.tle_extrapolation_dto import TleExtrapolationDto
-from fds_api_gen_client.models.tle_extrapolation_result_dto import TleExtrapolationResultDto
-from fds_api_gen_client.rest import ApiException
+import spacetower_python_client
+from spacetower_python_client.models.tle_extrapolation_dto import TleExtrapolationDto
+from spacetower_python_client.models.tle_extrapolation_result_dto import TleExtrapolationResultDto
+from spacetower_python_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to http://localhost
 # See configuration.py for a list of all supported configuration parameters.
-configuration = fds_api_gen_client.Configuration(
+configuration = spacetower_python_client.Configuration(
     host = "http://localhost"
 )
 
-# The client must configure the authentication and authorization parameters
-# in accordance with the API server security policy.
-# Examples for each auth method are provided below, use the example that
-# satisfies your auth use case.
-
-# Configure Bearer authorization (JWT): bearer-key
-configuration = fds_api_gen_client.Configuration(
-    access_token = os.environ["BEARER_TOKEN"]
-)
 
 # Enter a context with an instance of the API client
-with fds_api_gen_client.ApiClient(configuration) as api_client:
+with spacetower_python_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = fds_api_gen_client.TLESGP4ExtrapolationApi(api_client)
-    tle_extrapolation_dto = fds_api_gen_client.TleExtrapolationDto() # TleExtrapolationDto | 
+    api_instance = spacetower_python_client.TLESGP4ExtrapolationApi(api_client)
+    tle_extrapolation_dto = spacetower_python_client.TleExtrapolationDto() # TleExtrapolationDto | 
 
     try:
         api_response = api_instance.extrapolate_tle(tle_extrapolation_dto)
@@ -72,7 +62,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearer-key](../README.md#bearer-key)
+No authorization required
 
 ### HTTP request headers
 
@@ -94,34 +84,24 @@ Name | Type | Description  | Notes
 
 ### Example
 
-* Bearer (JWT) Authentication (bearer-key):
 
 ```python
-import fds_api_gen_client
-from fds_api_gen_client.models.tle_extrapolation_dto import TleExtrapolationDto
-from fds_api_gen_client.rest import ApiException
+import spacetower_python_client
+from spacetower_python_client.models.tle_extrapolation_dto import TleExtrapolationDto
+from spacetower_python_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to http://localhost
 # See configuration.py for a list of all supported configuration parameters.
-configuration = fds_api_gen_client.Configuration(
+configuration = spacetower_python_client.Configuration(
     host = "http://localhost"
 )
 
-# The client must configure the authentication and authorization parameters
-# in accordance with the API server security policy.
-# Examples for each auth method are provided below, use the example that
-# satisfies your auth use case.
-
-# Configure Bearer authorization (JWT): bearer-key
-configuration = fds_api_gen_client.Configuration(
-    access_token = os.environ["BEARER_TOKEN"]
-)
 
 # Enter a context with an instance of the API client
-with fds_api_gen_client.ApiClient(configuration) as api_client:
+with spacetower_python_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = fds_api_gen_client.TLESGP4ExtrapolationApi(api_client)
+    api_instance = spacetower_python_client.TLESGP4ExtrapolationApi(api_client)
     id = 'id_example' # str | 
 
     try:
@@ -147,7 +127,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearer-key](../README.md#bearer-key)
+No authorization required
 
 ### HTTP request headers
 
@@ -169,34 +149,24 @@ Name | Type | Description  | Notes
 
 ### Example
 
-* Bearer (JWT) Authentication (bearer-key):
 
 ```python
-import fds_api_gen_client
-from fds_api_gen_client.models.tle_extrapolation_result_dto import TleExtrapolationResultDto
-from fds_api_gen_client.rest import ApiException
+import spacetower_python_client
+from spacetower_python_client.models.tle_extrapolation_result_dto import TleExtrapolationResultDto
+from spacetower_python_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to http://localhost
 # See configuration.py for a list of all supported configuration parameters.
-configuration = fds_api_gen_client.Configuration(
+configuration = spacetower_python_client.Configuration(
     host = "http://localhost"
 )
 
-# The client must configure the authentication and authorization parameters
-# in accordance with the API server security policy.
-# Examples for each auth method are provided below, use the example that
-# satisfies your auth use case.
-
-# Configure Bearer authorization (JWT): bearer-key
-configuration = fds_api_gen_client.Configuration(
-    access_token = os.environ["BEARER_TOKEN"]
-)
 
 # Enter a context with an instance of the API client
-with fds_api_gen_client.ApiClient(configuration) as api_client:
+with spacetower_python_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = fds_api_gen_client.TLESGP4ExtrapolationApi(api_client)
+    api_instance = spacetower_python_client.TLESGP4ExtrapolationApi(api_client)
     id = 'id_example' # str | 
 
     try:
@@ -222,7 +192,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearer-key](../README.md#bearer-key)
+No authorization required
 
 ### HTTP request headers
 
@@ -244,34 +214,24 @@ Name | Type | Description  | Notes
 
 ### Example
 
-* Bearer (JWT) Authentication (bearer-key):
 
 ```python
-import fds_api_gen_client
-from fds_api_gen_client.models.tle_extrapolation_result_dto import TleExtrapolationResultDto
-from fds_api_gen_client.rest import ApiException
+import spacetower_python_client
+from spacetower_python_client.models.tle_extrapolation_result_dto import TleExtrapolationResultDto
+from spacetower_python_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to http://localhost
 # See configuration.py for a list of all supported configuration parameters.
-configuration = fds_api_gen_client.Configuration(
+configuration = spacetower_python_client.Configuration(
     host = "http://localhost"
 )
 
-# The client must configure the authentication and authorization parameters
-# in accordance with the API server security policy.
-# Examples for each auth method are provided below, use the example that
-# satisfies your auth use case.
-
-# Configure Bearer authorization (JWT): bearer-key
-configuration = fds_api_gen_client.Configuration(
-    access_token = os.environ["BEARER_TOKEN"]
-)
 
 # Enter a context with an instance of the API client
-with fds_api_gen_client.ApiClient(configuration) as api_client:
+with spacetower_python_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = fds_api_gen_client.TLESGP4ExtrapolationApi(api_client)
+    api_instance = spacetower_python_client.TLESGP4ExtrapolationApi(api_client)
     id = 'id_example' # str | 
 
     try:
@@ -297,7 +257,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearer-key](../README.md#bearer-key)
+No authorization required
 
 ### HTTP request headers
 
@@ -319,34 +279,24 @@ Name | Type | Description  | Notes
 
 ### Example
 
-* Bearer (JWT) Authentication (bearer-key):
 
 ```python
-import fds_api_gen_client
-from fds_api_gen_client.models.tle_extrapolation_dto import TleExtrapolationDto
-from fds_api_gen_client.rest import ApiException
+import spacetower_python_client
+from spacetower_python_client.models.tle_extrapolation_dto import TleExtrapolationDto
+from spacetower_python_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to http://localhost
 # See configuration.py for a list of all supported configuration parameters.
-configuration = fds_api_gen_client.Configuration(
+configuration = spacetower_python_client.Configuration(
     host = "http://localhost"
 )
 
-# The client must configure the authentication and authorization parameters
-# in accordance with the API server security policy.
-# Examples for each auth method are provided below, use the example that
-# satisfies your auth use case.
-
-# Configure Bearer authorization (JWT): bearer-key
-configuration = fds_api_gen_client.Configuration(
-    access_token = os.environ["BEARER_TOKEN"]
-)
 
 # Enter a context with an instance of the API client
-with fds_api_gen_client.ApiClient(configuration) as api_client:
+with spacetower_python_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = fds_api_gen_client.TLESGP4ExtrapolationApi(api_client)
+    api_instance = spacetower_python_client.TLESGP4ExtrapolationApi(api_client)
 
     try:
         api_response = api_instance.retrieve_all_tle_extrapolations()
@@ -368,7 +318,7 @@ This endpoint does not need any parameter.
 
 ### Authorization
 
-[bearer-key](../README.md#bearer-key)
+No authorization required
 
 ### HTTP request headers
 

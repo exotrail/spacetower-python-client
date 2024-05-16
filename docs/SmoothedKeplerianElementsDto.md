@@ -20,7 +20,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from fds_api_gen_client.models.smoothed_keplerian_elements_dto import SmoothedKeplerianElementsDto
+from spacetower_python_client.models.smoothed_keplerian_elements_dto import SmoothedKeplerianElementsDto
 
 # TODO update the JSON string below
 json = "{}"

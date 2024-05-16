@@ -15,7 +15,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from fds_api_gen_client.models.quaternion_action_dto import QuaternionActionDto
+from spacetower_python_client.models.quaternion_action_dto import QuaternionActionDto
 
 # TODO update the JSON string below
 json = "{}"

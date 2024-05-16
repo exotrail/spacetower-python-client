@@ -16,7 +16,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from fds_api_gen_client.models.create_ukf_orbit_determination_configuration200_response import CreateUkfOrbitDeterminationConfiguration200Response
+from spacetower_python_client.models.create_ukf_orbit_determination_configuration200_response import CreateUkfOrbitDeterminationConfiguration200Response
 
 # TODO update the JSON string below
 json = "{}"

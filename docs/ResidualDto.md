@@ -12,7 +12,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from fds_api_gen_client.models.residual_dto import ResidualDto
+from spacetower_python_client.models.residual_dto import ResidualDto
 
 # TODO update the JSON string below
 json = "{}"

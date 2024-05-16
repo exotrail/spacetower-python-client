@@ -12,7 +12,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from fds_api_gen_client.models.station_visibility_events_request_dto import StationVisibilityEventsRequestDto
+from spacetower_python_client.models.station_visibility_events_request_dto import StationVisibilityEventsRequestDto
 
 # TODO update the JSON string below
 json = "{}"

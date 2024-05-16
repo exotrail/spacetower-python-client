@@ -18,7 +18,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from fds_api_gen_client.models.solar_array_dto import SolarArrayDto
+from spacetower_python_client.models.solar_array_dto import SolarArrayDto
 
 # TODO update the JSON string below
 json = "{}"

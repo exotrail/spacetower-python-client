@@ -11,7 +11,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from fds_api_gen_client.models.outlier_manager_settings_dto import OutlierManagerSettingsDto
+from spacetower_python_client.models.outlier_manager_settings_dto import OutlierManagerSettingsDto
 
 # TODO update the JSON string below
 json = "{}"

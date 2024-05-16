@@ -1,4 +1,4 @@
-# fds_api_gen_client.ParameterEstimationRequestApi
+# spacetower_python_client.ParameterEstimationRequestApi
 
 All URIs are relative to *http://localhost*
 
@@ -19,35 +19,25 @@ Method | HTTP request | Description
 
 ### Example
 
-* Bearer (JWT) Authentication (bearer-key):
 
 ```python
-import fds_api_gen_client
-from fds_api_gen_client.models.drag_coefficient_estimation_request_input_dto import DragCoefficientEstimationRequestInputDto
-from fds_api_gen_client.rest import ApiException
+import spacetower_python_client
+from spacetower_python_client.models.drag_coefficient_estimation_request_input_dto import DragCoefficientEstimationRequestInputDto
+from spacetower_python_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to http://localhost
 # See configuration.py for a list of all supported configuration parameters.
-configuration = fds_api_gen_client.Configuration(
+configuration = spacetower_python_client.Configuration(
     host = "http://localhost"
 )
 
-# The client must configure the authentication and authorization parameters
-# in accordance with the API server security policy.
-# Examples for each auth method are provided below, use the example that
-# satisfies your auth use case.
-
-# Configure Bearer authorization (JWT): bearer-key
-configuration = fds_api_gen_client.Configuration(
-    access_token = os.environ["BEARER_TOKEN"]
-)
 
 # Enter a context with an instance of the API client
-with fds_api_gen_client.ApiClient(configuration) as api_client:
+with spacetower_python_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = fds_api_gen_client.ParameterEstimationRequestApi(api_client)
-    drag_coefficient_estimation_request_input_dto = fds_api_gen_client.DragCoefficientEstimationRequestInputDto() # DragCoefficientEstimationRequestInputDto | 
+    api_instance = spacetower_python_client.ParameterEstimationRequestApi(api_client)
+    drag_coefficient_estimation_request_input_dto = spacetower_python_client.DragCoefficientEstimationRequestInputDto() # DragCoefficientEstimationRequestInputDto | 
 
     try:
         api_response = api_instance.create_drag_coefficient_estimation_request(drag_coefficient_estimation_request_input_dto)
@@ -72,7 +62,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearer-key](../README.md#bearer-key)
+No authorization required
 
 ### HTTP request headers
 
@@ -94,35 +84,25 @@ Name | Type | Description  | Notes
 
 ### Example
 
-* Bearer (JWT) Authentication (bearer-key):
 
 ```python
-import fds_api_gen_client
-from fds_api_gen_client.models.reflectivity_coefficient_estimation_request_input_dto import ReflectivityCoefficientEstimationRequestInputDto
-from fds_api_gen_client.rest import ApiException
+import spacetower_python_client
+from spacetower_python_client.models.reflectivity_coefficient_estimation_request_input_dto import ReflectivityCoefficientEstimationRequestInputDto
+from spacetower_python_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to http://localhost
 # See configuration.py for a list of all supported configuration parameters.
-configuration = fds_api_gen_client.Configuration(
+configuration = spacetower_python_client.Configuration(
     host = "http://localhost"
 )
 
-# The client must configure the authentication and authorization parameters
-# in accordance with the API server security policy.
-# Examples for each auth method are provided below, use the example that
-# satisfies your auth use case.
-
-# Configure Bearer authorization (JWT): bearer-key
-configuration = fds_api_gen_client.Configuration(
-    access_token = os.environ["BEARER_TOKEN"]
-)
 
 # Enter a context with an instance of the API client
-with fds_api_gen_client.ApiClient(configuration) as api_client:
+with spacetower_python_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = fds_api_gen_client.ParameterEstimationRequestApi(api_client)
-    reflectivity_coefficient_estimation_request_input_dto = fds_api_gen_client.ReflectivityCoefficientEstimationRequestInputDto() # ReflectivityCoefficientEstimationRequestInputDto | 
+    api_instance = spacetower_python_client.ParameterEstimationRequestApi(api_client)
+    reflectivity_coefficient_estimation_request_input_dto = spacetower_python_client.ReflectivityCoefficientEstimationRequestInputDto() # ReflectivityCoefficientEstimationRequestInputDto | 
 
     try:
         api_response = api_instance.create_reflectivity_coefficient_estimation_request(reflectivity_coefficient_estimation_request_input_dto)
@@ -147,7 +127,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearer-key](../README.md#bearer-key)
+No authorization required
 
 ### HTTP request headers
 
@@ -169,35 +149,25 @@ Name | Type | Description  | Notes
 
 ### Example
 
-* Bearer (JWT) Authentication (bearer-key):
 
 ```python
-import fds_api_gen_client
-from fds_api_gen_client.models.thrust_vector_estimation_request_input_dto import ThrustVectorEstimationRequestInputDto
-from fds_api_gen_client.rest import ApiException
+import spacetower_python_client
+from spacetower_python_client.models.thrust_vector_estimation_request_input_dto import ThrustVectorEstimationRequestInputDto
+from spacetower_python_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to http://localhost
 # See configuration.py for a list of all supported configuration parameters.
-configuration = fds_api_gen_client.Configuration(
+configuration = spacetower_python_client.Configuration(
     host = "http://localhost"
 )
 
-# The client must configure the authentication and authorization parameters
-# in accordance with the API server security policy.
-# Examples for each auth method are provided below, use the example that
-# satisfies your auth use case.
-
-# Configure Bearer authorization (JWT): bearer-key
-configuration = fds_api_gen_client.Configuration(
-    access_token = os.environ["BEARER_TOKEN"]
-)
 
 # Enter a context with an instance of the API client
-with fds_api_gen_client.ApiClient(configuration) as api_client:
+with spacetower_python_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = fds_api_gen_client.ParameterEstimationRequestApi(api_client)
-    thrust_vector_estimation_request_input_dto = fds_api_gen_client.ThrustVectorEstimationRequestInputDto() # ThrustVectorEstimationRequestInputDto | 
+    api_instance = spacetower_python_client.ParameterEstimationRequestApi(api_client)
+    thrust_vector_estimation_request_input_dto = spacetower_python_client.ThrustVectorEstimationRequestInputDto() # ThrustVectorEstimationRequestInputDto | 
 
     try:
         api_response = api_instance.create_thrust_vector_estimation_request(thrust_vector_estimation_request_input_dto)
@@ -222,7 +192,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearer-key](../README.md#bearer-key)
+No authorization required
 
 ### HTTP request headers
 
@@ -244,33 +214,23 @@ Name | Type | Description  | Notes
 
 ### Example
 
-* Bearer (JWT) Authentication (bearer-key):
 
 ```python
-import fds_api_gen_client
-from fds_api_gen_client.rest import ApiException
+import spacetower_python_client
+from spacetower_python_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to http://localhost
 # See configuration.py for a list of all supported configuration parameters.
-configuration = fds_api_gen_client.Configuration(
+configuration = spacetower_python_client.Configuration(
     host = "http://localhost"
 )
 
-# The client must configure the authentication and authorization parameters
-# in accordance with the API server security policy.
-# Examples for each auth method are provided below, use the example that
-# satisfies your auth use case.
-
-# Configure Bearer authorization (JWT): bearer-key
-configuration = fds_api_gen_client.Configuration(
-    access_token = os.environ["BEARER_TOKEN"]
-)
 
 # Enter a context with an instance of the API client
-with fds_api_gen_client.ApiClient(configuration) as api_client:
+with spacetower_python_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = fds_api_gen_client.ParameterEstimationRequestApi(api_client)
+    api_instance = spacetower_python_client.ParameterEstimationRequestApi(api_client)
     id = 'id_example' # str | 
 
     try:
@@ -294,7 +254,7 @@ void (empty response body)
 
 ### Authorization
 
-[bearer-key](../README.md#bearer-key)
+No authorization required
 
 ### HTTP request headers
 
@@ -318,21 +278,21 @@ void (empty response body)
 
 
 ```python
-import fds_api_gen_client
-from fds_api_gen_client.rest import ApiException
+import spacetower_python_client
+from spacetower_python_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to http://localhost
 # See configuration.py for a list of all supported configuration parameters.
-configuration = fds_api_gen_client.Configuration(
+configuration = spacetower_python_client.Configuration(
     host = "http://localhost"
 )
 
 
 # Enter a context with an instance of the API client
-with fds_api_gen_client.ApiClient(configuration) as api_client:
+with spacetower_python_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = fds_api_gen_client.ParameterEstimationRequestApi(api_client)
+    api_instance = spacetower_python_client.ParameterEstimationRequestApi(api_client)
 
     try:
         api_response = api_instance.retrieve_all1()
@@ -376,33 +336,23 @@ No authorization required
 
 ### Example
 
-* Bearer (JWT) Authentication (bearer-key):
 
 ```python
-import fds_api_gen_client
-from fds_api_gen_client.rest import ApiException
+import spacetower_python_client
+from spacetower_python_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to http://localhost
 # See configuration.py for a list of all supported configuration parameters.
-configuration = fds_api_gen_client.Configuration(
+configuration = spacetower_python_client.Configuration(
     host = "http://localhost"
 )
 
-# The client must configure the authentication and authorization parameters
-# in accordance with the API server security policy.
-# Examples for each auth method are provided below, use the example that
-# satisfies your auth use case.
-
-# Configure Bearer authorization (JWT): bearer-key
-configuration = fds_api_gen_client.Configuration(
-    access_token = os.environ["BEARER_TOKEN"]
-)
 
 # Enter a context with an instance of the API client
-with fds_api_gen_client.ApiClient(configuration) as api_client:
+with spacetower_python_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = fds_api_gen_client.ParameterEstimationRequestApi(api_client)
+    api_instance = spacetower_python_client.ParameterEstimationRequestApi(api_client)
     id = 'id_example' # str | 
 
     try:
@@ -428,7 +378,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearer-key](../README.md#bearer-key)
+No authorization required
 
 ### HTTP request headers
 

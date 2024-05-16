@@ -15,7 +15,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from fds_api_gen_client.models.gps_nmea_raw_telemetry_dto import GpsNmeaRawTelemetryDto
+from spacetower_python_client.models.gps_nmea_raw_telemetry_dto import GpsNmeaRawTelemetryDto
 
 # TODO update the JSON string below
 json = "{}"

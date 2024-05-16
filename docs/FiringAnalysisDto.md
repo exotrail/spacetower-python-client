@@ -22,7 +22,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from fds_api_gen_client.models.firing_analysis_dto import FiringAnalysisDto
+from spacetower_python_client.models.firing_analysis_dto import FiringAnalysisDto
 
 # TODO update the JSON string below
 json = "{}"

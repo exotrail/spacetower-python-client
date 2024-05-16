@@ -14,7 +14,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from fds_api_gen_client.models.diagonal_covariance_matrix_dto import DiagonalCovarianceMatrixDto
+from spacetower_python_client.models.diagonal_covariance_matrix_dto import DiagonalCovarianceMatrixDto
 
 # TODO update the JSON string below
 json = "{}"

@@ -19,7 +19,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from fds_api_gen_client.models.orbit_extrapolation_output_dto import OrbitExtrapolationOutputDto
+from spacetower_python_client.models.orbit_extrapolation_output_dto import OrbitExtrapolationOutputDto
 
 # TODO update the JSON string below
 json = "{}"

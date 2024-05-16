@@ -12,7 +12,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from fds_api_gen_client.models.drag_coefficient_estimation_request_input_dto import DragCoefficientEstimationRequestInputDto
+from spacetower_python_client.models.drag_coefficient_estimation_request_input_dto import DragCoefficientEstimationRequestInputDto
 
 # TODO update the JSON string below
 json = "{}"

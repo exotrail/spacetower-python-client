@@ -1,4 +1,4 @@
-# fds_api_gen_client.OrbitApi
+# spacetower_python_client.OrbitApi
 
 All URIs are relative to *http://localhost*
 
@@ -20,35 +20,25 @@ Method | HTTP request | Description
 
 ### Example
 
-* Bearer (JWT) Authentication (bearer-key):
 
 ```python
-import fds_api_gen_client
-from fds_api_gen_client.models.cartesian_orbit_dto import CartesianOrbitDto
-from fds_api_gen_client.rest import ApiException
+import spacetower_python_client
+from spacetower_python_client.models.cartesian_orbit_dto import CartesianOrbitDto
+from spacetower_python_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to http://localhost
 # See configuration.py for a list of all supported configuration parameters.
-configuration = fds_api_gen_client.Configuration(
+configuration = spacetower_python_client.Configuration(
     host = "http://localhost"
 )
 
-# The client must configure the authentication and authorization parameters
-# in accordance with the API server security policy.
-# Examples for each auth method are provided below, use the example that
-# satisfies your auth use case.
-
-# Configure Bearer authorization (JWT): bearer-key
-configuration = fds_api_gen_client.Configuration(
-    access_token = os.environ["BEARER_TOKEN"]
-)
 
 # Enter a context with an instance of the API client
-with fds_api_gen_client.ApiClient(configuration) as api_client:
+with spacetower_python_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = fds_api_gen_client.OrbitApi(api_client)
-    cartesian_orbit_dto = fds_api_gen_client.CartesianOrbitDto() # CartesianOrbitDto | 
+    api_instance = spacetower_python_client.OrbitApi(api_client)
+    cartesian_orbit_dto = spacetower_python_client.CartesianOrbitDto() # CartesianOrbitDto | 
 
     try:
         api_response = api_instance.create_cartesian_orbit(cartesian_orbit_dto)
@@ -73,7 +63,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearer-key](../README.md#bearer-key)
+No authorization required
 
 ### HTTP request headers
 
@@ -95,35 +85,25 @@ Name | Type | Description  | Notes
 
 ### Example
 
-* Bearer (JWT) Authentication (bearer-key):
 
 ```python
-import fds_api_gen_client
-from fds_api_gen_client.models.circular_orbit_dto import CircularOrbitDto
-from fds_api_gen_client.rest import ApiException
+import spacetower_python_client
+from spacetower_python_client.models.circular_orbit_dto import CircularOrbitDto
+from spacetower_python_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to http://localhost
 # See configuration.py for a list of all supported configuration parameters.
-configuration = fds_api_gen_client.Configuration(
+configuration = spacetower_python_client.Configuration(
     host = "http://localhost"
 )
 
-# The client must configure the authentication and authorization parameters
-# in accordance with the API server security policy.
-# Examples for each auth method are provided below, use the example that
-# satisfies your auth use case.
-
-# Configure Bearer authorization (JWT): bearer-key
-configuration = fds_api_gen_client.Configuration(
-    access_token = os.environ["BEARER_TOKEN"]
-)
 
 # Enter a context with an instance of the API client
-with fds_api_gen_client.ApiClient(configuration) as api_client:
+with spacetower_python_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = fds_api_gen_client.OrbitApi(api_client)
-    circular_orbit_dto = fds_api_gen_client.CircularOrbitDto() # CircularOrbitDto | 
+    api_instance = spacetower_python_client.OrbitApi(api_client)
+    circular_orbit_dto = spacetower_python_client.CircularOrbitDto() # CircularOrbitDto | 
 
     try:
         api_response = api_instance.create_circular_orbit(circular_orbit_dto)
@@ -148,7 +128,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearer-key](../README.md#bearer-key)
+No authorization required
 
 ### HTTP request headers
 
@@ -170,35 +150,25 @@ Name | Type | Description  | Notes
 
 ### Example
 
-* Bearer (JWT) Authentication (bearer-key):
 
 ```python
-import fds_api_gen_client
-from fds_api_gen_client.models.equinoctial_orbit_dto import EquinoctialOrbitDto
-from fds_api_gen_client.rest import ApiException
+import spacetower_python_client
+from spacetower_python_client.models.equinoctial_orbit_dto import EquinoctialOrbitDto
+from spacetower_python_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to http://localhost
 # See configuration.py for a list of all supported configuration parameters.
-configuration = fds_api_gen_client.Configuration(
+configuration = spacetower_python_client.Configuration(
     host = "http://localhost"
 )
 
-# The client must configure the authentication and authorization parameters
-# in accordance with the API server security policy.
-# Examples for each auth method are provided below, use the example that
-# satisfies your auth use case.
-
-# Configure Bearer authorization (JWT): bearer-key
-configuration = fds_api_gen_client.Configuration(
-    access_token = os.environ["BEARER_TOKEN"]
-)
 
 # Enter a context with an instance of the API client
-with fds_api_gen_client.ApiClient(configuration) as api_client:
+with spacetower_python_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = fds_api_gen_client.OrbitApi(api_client)
-    equinoctial_orbit_dto = fds_api_gen_client.EquinoctialOrbitDto() # EquinoctialOrbitDto | 
+    api_instance = spacetower_python_client.OrbitApi(api_client)
+    equinoctial_orbit_dto = spacetower_python_client.EquinoctialOrbitDto() # EquinoctialOrbitDto | 
 
     try:
         api_response = api_instance.create_equinoctial_orbit(equinoctial_orbit_dto)
@@ -223,7 +193,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearer-key](../README.md#bearer-key)
+No authorization required
 
 ### HTTP request headers
 
@@ -245,35 +215,25 @@ Name | Type | Description  | Notes
 
 ### Example
 
-* Bearer (JWT) Authentication (bearer-key):
 
 ```python
-import fds_api_gen_client
-from fds_api_gen_client.models.keplerian_orbit_dto import KeplerianOrbitDto
-from fds_api_gen_client.rest import ApiException
+import spacetower_python_client
+from spacetower_python_client.models.keplerian_orbit_dto import KeplerianOrbitDto
+from spacetower_python_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to http://localhost
 # See configuration.py for a list of all supported configuration parameters.
-configuration = fds_api_gen_client.Configuration(
+configuration = spacetower_python_client.Configuration(
     host = "http://localhost"
 )
 
-# The client must configure the authentication and authorization parameters
-# in accordance with the API server security policy.
-# Examples for each auth method are provided below, use the example that
-# satisfies your auth use case.
-
-# Configure Bearer authorization (JWT): bearer-key
-configuration = fds_api_gen_client.Configuration(
-    access_token = os.environ["BEARER_TOKEN"]
-)
 
 # Enter a context with an instance of the API client
-with fds_api_gen_client.ApiClient(configuration) as api_client:
+with spacetower_python_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = fds_api_gen_client.OrbitApi(api_client)
-    keplerian_orbit_dto = fds_api_gen_client.KeplerianOrbitDto() # KeplerianOrbitDto | 
+    api_instance = spacetower_python_client.OrbitApi(api_client)
+    keplerian_orbit_dto = spacetower_python_client.KeplerianOrbitDto() # KeplerianOrbitDto | 
 
     try:
         api_response = api_instance.create_keplerian_orbit(keplerian_orbit_dto)
@@ -298,7 +258,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearer-key](../README.md#bearer-key)
+No authorization required
 
 ### HTTP request headers
 
@@ -320,33 +280,23 @@ Name | Type | Description  | Notes
 
 ### Example
 
-* Bearer (JWT) Authentication (bearer-key):
 
 ```python
-import fds_api_gen_client
-from fds_api_gen_client.rest import ApiException
+import spacetower_python_client
+from spacetower_python_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to http://localhost
 # See configuration.py for a list of all supported configuration parameters.
-configuration = fds_api_gen_client.Configuration(
+configuration = spacetower_python_client.Configuration(
     host = "http://localhost"
 )
 
-# The client must configure the authentication and authorization parameters
-# in accordance with the API server security policy.
-# Examples for each auth method are provided below, use the example that
-# satisfies your auth use case.
-
-# Configure Bearer authorization (JWT): bearer-key
-configuration = fds_api_gen_client.Configuration(
-    access_token = os.environ["BEARER_TOKEN"]
-)
 
 # Enter a context with an instance of the API client
-with fds_api_gen_client.ApiClient(configuration) as api_client:
+with spacetower_python_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = fds_api_gen_client.OrbitApi(api_client)
+    api_instance = spacetower_python_client.OrbitApi(api_client)
     id = 'id_example' # str | 
 
     try:
@@ -370,7 +320,7 @@ void (empty response body)
 
 ### Authorization
 
-[bearer-key](../README.md#bearer-key)
+No authorization required
 
 ### HTTP request headers
 
@@ -392,33 +342,23 @@ void (empty response body)
 
 ### Example
 
-* Bearer (JWT) Authentication (bearer-key):
 
 ```python
-import fds_api_gen_client
-from fds_api_gen_client.rest import ApiException
+import spacetower_python_client
+from spacetower_python_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to http://localhost
 # See configuration.py for a list of all supported configuration parameters.
-configuration = fds_api_gen_client.Configuration(
+configuration = spacetower_python_client.Configuration(
     host = "http://localhost"
 )
 
-# The client must configure the authentication and authorization parameters
-# in accordance with the API server security policy.
-# Examples for each auth method are provided below, use the example that
-# satisfies your auth use case.
-
-# Configure Bearer authorization (JWT): bearer-key
-configuration = fds_api_gen_client.Configuration(
-    access_token = os.environ["BEARER_TOKEN"]
-)
 
 # Enter a context with an instance of the API client
-with fds_api_gen_client.ApiClient(configuration) as api_client:
+with spacetower_python_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = fds_api_gen_client.OrbitApi(api_client)
+    api_instance = spacetower_python_client.OrbitApi(api_client)
 
     try:
         api_response = api_instance.retrieve_all2()
@@ -440,7 +380,7 @@ This endpoint does not need any parameter.
 
 ### Authorization
 
-[bearer-key](../README.md#bearer-key)
+No authorization required
 
 ### HTTP request headers
 
@@ -462,33 +402,23 @@ This endpoint does not need any parameter.
 
 ### Example
 
-* Bearer (JWT) Authentication (bearer-key):
 
 ```python
-import fds_api_gen_client
-from fds_api_gen_client.rest import ApiException
+import spacetower_python_client
+from spacetower_python_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to http://localhost
 # See configuration.py for a list of all supported configuration parameters.
-configuration = fds_api_gen_client.Configuration(
+configuration = spacetower_python_client.Configuration(
     host = "http://localhost"
 )
 
-# The client must configure the authentication and authorization parameters
-# in accordance with the API server security policy.
-# Examples for each auth method are provided below, use the example that
-# satisfies your auth use case.
-
-# Configure Bearer authorization (JWT): bearer-key
-configuration = fds_api_gen_client.Configuration(
-    access_token = os.environ["BEARER_TOKEN"]
-)
 
 # Enter a context with an instance of the API client
-with fds_api_gen_client.ApiClient(configuration) as api_client:
+with spacetower_python_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = fds_api_gen_client.OrbitApi(api_client)
+    api_instance = spacetower_python_client.OrbitApi(api_client)
     id = 'id_example' # str | 
 
     try:
@@ -514,7 +444,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearer-key](../README.md#bearer-key)
+No authorization required
 
 ### HTTP request headers
 

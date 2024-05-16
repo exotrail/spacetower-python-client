@@ -18,7 +18,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from fds_api_gen_client.models.cartesian_orbit_dto import CartesianOrbitDto
+from spacetower_python_client.models.cartesian_orbit_dto import CartesianOrbitDto
 
 # TODO update the JSON string below
 json = "{}"

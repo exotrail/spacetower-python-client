@@ -34,9 +34,12 @@ echo "CODE GENERATION"
 echo "---------------"
 echo ""
 # Open yaml file and get API version (it is in info/version)
-PROJECT_VERSION=$(awk '/version/{print $2}' fds.yaml)
-PACKAGE_NAME='fds_api_gen_client'
-PROJECT_NAME='fds_api_gen_client'
+# PROJECT_VERSION=$(awk '/version/{print $2}' fds.yaml)
+PACKAGE_NAME='spacetower_python_client'
+PROJECT_NAME='spacetower-python-client'
+
+read -p "Project version: " PROJECT_VERSION
+
 
 echo "Project name: $PROJECT_NAME"
 echo "Project version: $PROJECT_VERSION"
@@ -58,17 +61,5 @@ echo ""
 echo "Done!"
 echo ""
 
-
-
-# GIT operations
-git pull
-echo "Adding $PROJECT_NAME to git..."
-git add .
-
-echo "Committing changes..."
-git commit -m "Building $PROJECT_NAME $PROJECT_VERSION"
-echo ""
-echo "Tagging version $PROJECT_VERSION ..."
-git tag "$PROJECT_VERSION" --force
 
 read -p "Press enter to exit"

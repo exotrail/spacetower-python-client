@@ -14,7 +14,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from fds_api_gen_client.models.orbital_state_creation_request_dto import OrbitalStateCreationRequestDto
+from spacetower_python_client.models.orbital_state_creation_request_dto import OrbitalStateCreationRequestDto
 
 # TODO update the JSON string below
 json = "{}"

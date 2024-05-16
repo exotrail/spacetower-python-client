@@ -18,7 +18,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from fds_api_gen_client.models.propagation_context_dto import PropagationContextDto
+from spacetower_python_client.models.propagation_context_dto import PropagationContextDto
 
 # TODO update the JSON string below
 json = "{}"

@@ -13,7 +13,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from fds_api_gen_client.models.attitude_action_dto import AttitudeActionDto
+from spacetower_python_client.models.attitude_action_dto import AttitudeActionDto
 
 # TODO update the JSON string below
 json = "{}"

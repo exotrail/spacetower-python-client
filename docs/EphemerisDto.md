@@ -12,7 +12,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from fds_api_gen_client.models.ephemeris_dto import EphemerisDto
+from spacetower_python_client.models.ephemeris_dto import EphemerisDto
 
 # TODO update the JSON string below
 json = "{}"

@@ -14,7 +14,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from fds_api_gen_client.models.battery_dto import BatteryDto
+from spacetower_python_client.models.battery_dto import BatteryDto
 
 # TODO update the JSON string below
 json = "{}"

@@ -13,7 +13,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from fds_api_gen_client.models.roadmap_from_actions_dto import RoadmapFromActionsDto
+from spacetower_python_client.models.roadmap_from_actions_dto import RoadmapFromActionsDto
 
 # TODO update the JSON string below
 json = "{}"

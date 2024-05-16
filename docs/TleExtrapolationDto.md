@@ -11,7 +11,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from fds_api_gen_client.models.tle_extrapolation_dto import TleExtrapolationDto
+from spacetower_python_client.models.tle_extrapolation_dto import TleExtrapolationDto
 
 # TODO update the JSON string below
 json = "{}"

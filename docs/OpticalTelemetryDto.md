@@ -15,7 +15,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from fds_api_gen_client.models.optical_telemetry_dto import OpticalTelemetryDto
+from spacetower_python_client.models.optical_telemetry_dto import OpticalTelemetryDto
 
 # TODO update the JSON string below
 json = "{}"
