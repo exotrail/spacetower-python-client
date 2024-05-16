@@ -1,12 +1,12 @@
 [tool.poetry]
-name = "fds_api_gen_client"
+name = "spacetower-python-client"
 version = "1.0.0"
-description = "FDS API"
-authors = ["ExoTrail <contact@exotrail.com>"]
+description = "Python client for spacetower FDS API"
+authors = ["Exotrail <contact@exotrail.com>"]
 license = "NoLicense"
 readme = "README.md"
-repository = "https://github.com/GIT_USER_ID/GIT_REPO_ID"
-keywords = ["OpenAPI", "OpenAPI-Generator", "FDS API"]
+repository = "https://github.com/exotrail/spacetower-python-client"
+keywords = ["Flight Dynamic System", "spacetower", "FDS API"]
 include = ["fds_api_gen_client/py.typed"]
 
 [tool.poetry.dependencies]
