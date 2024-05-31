@@ -289,6 +289,7 @@ class OrbitApi:
 
         # authentication setting
         _auth_settings: List[str] = [
+            'bearer-key'
         ]
 
         return self.api_client.param_serialize(
@@ -556,6 +557,7 @@ class OrbitApi:
 
         # authentication setting
         _auth_settings: List[str] = [
+            'bearer-key'
         ]
 
         return self.api_client.param_serialize(
@@ -823,6 +825,7 @@ class OrbitApi:
 
         # authentication setting
         _auth_settings: List[str] = [
+            'bearer-key'
         ]
 
         return self.api_client.param_serialize(
@@ -1090,6 +1093,7 @@ class OrbitApi:
 
         # authentication setting
         _auth_settings: List[str] = [
+            'bearer-key'
         ]
 
         return self.api_client.param_serialize(
@@ -1338,6 +1342,7 @@ class OrbitApi:
 
         # authentication setting
         _auth_settings: List[str] = [
+            'bearer-key'
         ]
 
         return self.api_client.param_serialize(
@@ -1577,6 +1582,7 @@ class OrbitApi:
 
         # authentication setting
         _auth_settings: List[str] = [
+            'bearer-key'
         ]
 
         return self.api_client.param_serialize(
@@ -1831,6 +1837,7 @@ class OrbitApi:
 
         # authentication setting
         _auth_settings: List[str] = [
+            'bearer-key'
         ]
 
         return self.api_client.param_serialize(

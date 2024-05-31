@@ -287,6 +287,7 @@ class ThrusterApi:
 
         # authentication setting
         _auth_settings: List[str] = [
+            'bearer-key'
         ]
 
         return self.api_client.param_serialize(
@@ -554,6 +555,7 @@ class ThrusterApi:
 
         # authentication setting
         _auth_settings: List[str] = [
+            'bearer-key'
         ]
 
         return self.api_client.param_serialize(
@@ -802,6 +804,7 @@ class ThrusterApi:
 
         # authentication setting
         _auth_settings: List[str] = [
+            'bearer-key'
         ]
 
         return self.api_client.param_serialize(
@@ -1041,6 +1044,7 @@ class ThrusterApi:
 
         # authentication setting
         _auth_settings: List[str] = [
+            'bearer-key'
         ]
 
         return self.api_client.param_serialize(
@@ -1295,6 +1299,7 @@ class ThrusterApi:
 
         # authentication setting
         _auth_settings: List[str] = [
+            'bearer-key'
         ]
 
         return self.api_client.param_serialize(
