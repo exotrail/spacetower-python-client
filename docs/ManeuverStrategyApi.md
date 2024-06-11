@@ -17,7 +17,6 @@ Method | HTTP request | Description
 
 ### Example
 
-* Bearer (JWT) Authentication (bearer-key):
 
 ```python
 import spacetower_python_client
@@ -31,15 +30,6 @@ configuration = spacetower_python_client.Configuration(
     host = "http://172.16.3.63"
 )
 
-# The client must configure the authentication and authorization parameters
-# in accordance with the API server security policy.
-# Examples for each auth method are provided below, use the example that
-# satisfies your auth use case.
-
-# Configure Bearer authorization (JWT): bearer-key
-configuration = spacetower_python_client.Configuration(
-    access_token = os.environ["BEARER_TOKEN"]
-)
 
 # Enter a context with an instance of the API client
 with spacetower_python_client.ApiClient(configuration) as api_client:
@@ -70,7 +60,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearer-key](../README.md#bearer-key)
+No authorization required
 
 ### HTTP request headers
 
@@ -92,7 +82,6 @@ Name | Type | Description  | Notes
 
 ### Example
 
-* Bearer (JWT) Authentication (bearer-key):
 
 ```python
 import spacetower_python_client
@@ -105,15 +94,6 @@ configuration = spacetower_python_client.Configuration(
     host = "http://172.16.3.63"
 )
 
-# The client must configure the authentication and authorization parameters
-# in accordance with the API server security policy.
-# Examples for each auth method are provided below, use the example that
-# satisfies your auth use case.
-
-# Configure Bearer authorization (JWT): bearer-key
-configuration = spacetower_python_client.Configuration(
-    access_token = os.environ["BEARER_TOKEN"]
-)
 
 # Enter a context with an instance of the API client
 with spacetower_python_client.ApiClient(configuration) as api_client:
@@ -142,7 +122,7 @@ void (empty response body)
 
 ### Authorization
 
-[bearer-key](../README.md#bearer-key)
+No authorization required
 
 ### HTTP request headers
 
@@ -164,7 +144,6 @@ void (empty response body)
 
 ### Example
 
-* Bearer (JWT) Authentication (bearer-key):
 
 ```python
 import spacetower_python_client
@@ -178,15 +157,6 @@ configuration = spacetower_python_client.Configuration(
     host = "http://172.16.3.63"
 )
 
-# The client must configure the authentication and authorization parameters
-# in accordance with the API server security policy.
-# Examples for each auth method are provided below, use the example that
-# satisfies your auth use case.
-
-# Configure Bearer authorization (JWT): bearer-key
-configuration = spacetower_python_client.Configuration(
-    access_token = os.environ["BEARER_TOKEN"]
-)
 
 # Enter a context with an instance of the API client
 with spacetower_python_client.ApiClient(configuration) as api_client:
@@ -213,7 +183,7 @@ This endpoint does not need any parameter.
 
 ### Authorization
 
-[bearer-key](../README.md#bearer-key)
+No authorization required
 
 ### HTTP request headers
 
@@ -235,7 +205,6 @@ This endpoint does not need any parameter.
 
 ### Example
 
-* Bearer (JWT) Authentication (bearer-key):
 
 ```python
 import spacetower_python_client
@@ -249,15 +218,6 @@ configuration = spacetower_python_client.Configuration(
     host = "http://172.16.3.63"
 )
 
-# The client must configure the authentication and authorization parameters
-# in accordance with the API server security policy.
-# Examples for each auth method are provided below, use the example that
-# satisfies your auth use case.
-
-# Configure Bearer authorization (JWT): bearer-key
-configuration = spacetower_python_client.Configuration(
-    access_token = os.environ["BEARER_TOKEN"]
-)
 
 # Enter a context with an instance of the API client
 with spacetower_python_client.ApiClient(configuration) as api_client:
@@ -288,7 +248,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[bearer-key](../README.md#bearer-key)
+No authorization required
 
 ### HTTP request headers
 

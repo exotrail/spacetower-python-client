@@ -18,27 +18,21 @@ import pprint
 import re  # noqa: F401
 import json
 
-from pydantic import BaseModel, ConfigDict, Field, StrictStr, field_validator
-from typing import Any, ClassVar, Dict, List, Optional
+from pydantic import BaseModel, ConfigDict, Field, StrictFloat, StrictInt, StrictStr
+from typing import Any, ClassVar, Dict, List, Optional, Union
 from typing import Optional, Set
 from typing_extensions import Self
 
-class OrbitalEventsRequestDto(BaseModel):
+class EstimatedThrustDto(BaseModel):
     """
-    OrbitalEventsRequestDto
+    EstimatedThrustDto
     """ # noqa: E501
-    events_type: List[StrictStr] = Field(alias="eventsType")
+    var_date: Optional[StrictStr] = Field(default=None, alias="date")
     id: Optional[StrictStr] = None
-    start_date: Optional[StrictStr] = Field(default=None, description="UTC date", alias="startDate")
-    __properties: ClassVar[List[str]] = ["eventsType", "id", "startDate"]
-
-    @field_validator('events_type')
-    def events_type_validate_enum(cls, value):
-        """Validates the enum"""
-        for i in value:
-            if i not in set(['NODE', 'ECLIPSE', 'ORBITAL_6AMPM', 'ORBITAL_NOON_MIDNIGHT', 'APSIDE']):
-                raise ValueError("each list item must be one of ('NODE', 'ECLIPSE', 'ORBITAL_6AMPM', 'ORBITAL_NOON_MIDNIGHT', 'APSIDE')")
-        return value
+    magnitude: Optional[Union[StrictFloat, StrictInt]] = None
+    scale_factors: Optional[List[Union[StrictFloat, StrictInt]]] = Field(default=None, alias="scaleFactors")
+    tnw_direction: Optional[List[Union[StrictFloat, StrictInt]]] = Field(default=None, alias="tnwDirection")
+    __properties: ClassVar[List[str]] = ["date", "id", "magnitude", "scaleFactors", "tnwDirection"]
 
     model_config = ConfigDict(
         populate_by_name=True,
@@ -58,7 +52,7 @@ class OrbitalEventsRequestDto(BaseModel):
 
     @classmethod
     def from_json(cls, json_str: str) -> Optional[Self]:
-        """Create an instance of OrbitalEventsRequestDto from a JSON string"""
+        """Create an instance of EstimatedThrustDto from a JSON string"""
         return cls.from_dict(json.loads(json_str))
 
     def to_dict(self) -> Dict[str, Any]:
@@ -83,7 +77,7 @@ class OrbitalEventsRequestDto(BaseModel):
 
     @classmethod
     def from_dict(cls, obj: Optional[Dict[str, Any]]) -> Optional[Self]:
-        """Create an instance of OrbitalEventsRequestDto from a dict"""
+        """Create an instance of EstimatedThrustDto from a dict"""
         if obj is None:
             return None
 
@@ -91,9 +85,11 @@ class OrbitalEventsRequestDto(BaseModel):
             return cls.model_validate(obj)
 
         _obj = cls.model_validate({
-            "eventsType": obj.get("eventsType"),
+            "date": obj.get("date"),
             "id": obj.get("id"),
-            "startDate": obj.get("startDate")
+            "magnitude": obj.get("magnitude"),
+            "scaleFactors": obj.get("scaleFactors"),
+            "tnwDirection": obj.get("tnwDirection")
         })
         return _obj
 

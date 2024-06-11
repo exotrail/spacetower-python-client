@@ -5,8 +5,9 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**outlier_manager_scale** | **float** | Number of standard deviations for outlier detection | 
-**outliers_manager_warmup** | **int** | Number of warmup iterations or number of measurement without outlier rejection | 
+**max_number_of_consecutive_outliers** | **int** | Maximum number of consecutive outliers | [optional] 
+**outlier_max_scale** | **float** | Number of standard deviations for outlier detection | 
+**outlier_warmup_iterations** | **int** | Number of warmup iterations or number of measurement without outlier rejection | 
 
 ## Example
 

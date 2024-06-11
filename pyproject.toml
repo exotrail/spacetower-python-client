@@ -1,8 +1,8 @@
 [tool.poetry]
 name = "spacetower_python_client"
-version = "0.0.0"
+version = "1.0.6"
 description = "FDS API"
-authors = ["ExoTrail <contact@exotrail.com>"]
+authors = ["Exotrail <contact@exotrail.com>"]
 license = "NoLicense"
 readme = "README.md"
 repository = "https://github.com/GIT_USER_ID/GIT_REPO_ID"
