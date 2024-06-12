@@ -1,6 +1,6 @@
 # spacetower_python_client.OrbitApi
 
-All URIs are relative to *http://localhost*
+All URIs are relative to *http://172.16.3.63*
 
 Method | HTTP request | Description
 ------------- | ------------- | -------------
@@ -27,10 +27,10 @@ from spacetower_python_client.models.cartesian_orbit_dto import CartesianOrbitDt
 from spacetower_python_client.rest import ApiException
 from pprint import pprint
 
-# Defining the host is optional and defaults to http://localhost
+# Defining the host is optional and defaults to http://172.16.3.63
 # See configuration.py for a list of all supported configuration parameters.
 configuration = spacetower_python_client.Configuration(
-    host = "http://localhost"
+    host = "http://172.16.3.63"
 )
 
 
@@ -92,10 +92,10 @@ from spacetower_python_client.models.circular_orbit_dto import CircularOrbitDto
 from spacetower_python_client.rest import ApiException
 from pprint import pprint
 
-# Defining the host is optional and defaults to http://localhost
+# Defining the host is optional and defaults to http://172.16.3.63
 # See configuration.py for a list of all supported configuration parameters.
 configuration = spacetower_python_client.Configuration(
-    host = "http://localhost"
+    host = "http://172.16.3.63"
 )
 
 
@@ -157,10 +157,10 @@ from spacetower_python_client.models.equinoctial_orbit_dto import EquinoctialOrb
 from spacetower_python_client.rest import ApiException
 from pprint import pprint
 
-# Defining the host is optional and defaults to http://localhost
+# Defining the host is optional and defaults to http://172.16.3.63
 # See configuration.py for a list of all supported configuration parameters.
 configuration = spacetower_python_client.Configuration(
-    host = "http://localhost"
+    host = "http://172.16.3.63"
 )
 
 
@@ -222,10 +222,10 @@ from spacetower_python_client.models.keplerian_orbit_dto import KeplerianOrbitDt
 from spacetower_python_client.rest import ApiException
 from pprint import pprint
 
-# Defining the host is optional and defaults to http://localhost
+# Defining the host is optional and defaults to http://172.16.3.63
 # See configuration.py for a list of all supported configuration parameters.
 configuration = spacetower_python_client.Configuration(
-    host = "http://localhost"
+    host = "http://172.16.3.63"
 )
 
 
@@ -286,10 +286,10 @@ import spacetower_python_client
 from spacetower_python_client.rest import ApiException
 from pprint import pprint
 
-# Defining the host is optional and defaults to http://localhost
+# Defining the host is optional and defaults to http://172.16.3.63
 # See configuration.py for a list of all supported configuration parameters.
 configuration = spacetower_python_client.Configuration(
-    host = "http://localhost"
+    host = "http://172.16.3.63"
 )
 
 
@@ -348,10 +348,10 @@ import spacetower_python_client
 from spacetower_python_client.rest import ApiException
 from pprint import pprint
 
-# Defining the host is optional and defaults to http://localhost
+# Defining the host is optional and defaults to http://172.16.3.63
 # See configuration.py for a list of all supported configuration parameters.
 configuration = spacetower_python_client.Configuration(
-    host = "http://localhost"
+    host = "http://172.16.3.63"
 )
 
 
@@ -408,10 +408,10 @@ import spacetower_python_client
 from spacetower_python_client.rest import ApiException
 from pprint import pprint
 
-# Defining the host is optional and defaults to http://localhost
+# Defining the host is optional and defaults to http://172.16.3.63
 # See configuration.py for a list of all supported configuration parameters.
 configuration = spacetower_python_client.Configuration(
-    host = "http://localhost"
+    host = "http://172.16.3.63"
 )
 
 

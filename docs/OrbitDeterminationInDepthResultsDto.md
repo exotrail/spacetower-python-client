@@ -8,6 +8,7 @@ Name | Type | Description | Notes
 **covariance_matrices** | **List[object]** |  | [optional] 
 **estimated_drag_coefficients** | [**List[EstimatedParameterDto]**](EstimatedParameterDto.md) |  | [optional] 
 **estimated_reflectivity_coefficients** | [**List[EstimatedParameterDto]**](EstimatedParameterDto.md) |  | [optional] 
+**estimated_thrust_data** | [**List[EstimatedThrustDto]**](EstimatedThrustDto.md) |  | [optional] 
 **mean_orbits** | **List[object]** |  | [optional] 
 **osculating_orbits** | **List[object]** |  | [optional] 
 

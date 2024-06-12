@@ -1,6 +1,6 @@
 # spacetower_python_client.OrbitDeterminationConfigurationApi
 
-All URIs are relative to *http://localhost*
+All URIs are relative to *http://172.16.3.63*
 
 Method | HTTP request | Description
 ------------- | ------------- | -------------
@@ -25,10 +25,10 @@ from spacetower_python_client.models.ukf_orbit_determination_configuration_dto i
 from spacetower_python_client.rest import ApiException
 from pprint import pprint
 
-# Defining the host is optional and defaults to http://localhost
+# Defining the host is optional and defaults to http://172.16.3.63
 # See configuration.py for a list of all supported configuration parameters.
 configuration = spacetower_python_client.Configuration(
-    host = "http://localhost"
+    host = "http://172.16.3.63"
 )
 
 
@@ -89,10 +89,10 @@ import spacetower_python_client
 from spacetower_python_client.rest import ApiException
 from pprint import pprint
 
-# Defining the host is optional and defaults to http://localhost
+# Defining the host is optional and defaults to http://172.16.3.63
 # See configuration.py for a list of all supported configuration parameters.
 configuration = spacetower_python_client.Configuration(
-    host = "http://localhost"
+    host = "http://172.16.3.63"
 )
 
 
@@ -152,10 +152,10 @@ from spacetower_python_client.models.create_ukf_orbit_determination_configuratio
 from spacetower_python_client.rest import ApiException
 from pprint import pprint
 
-# Defining the host is optional and defaults to http://localhost
+# Defining the host is optional and defaults to http://172.16.3.63
 # See configuration.py for a list of all supported configuration parameters.
 configuration = spacetower_python_client.Configuration(
-    host = "http://localhost"
+    host = "http://172.16.3.63"
 )
 
 
@@ -213,10 +213,10 @@ from spacetower_python_client.models.create_ukf_orbit_determination_configuratio
 from spacetower_python_client.rest import ApiException
 from pprint import pprint
 
-# Defining the host is optional and defaults to http://localhost
+# Defining the host is optional and defaults to http://172.16.3.63
 # See configuration.py for a list of all supported configuration parameters.
 configuration = spacetower_python_client.Configuration(
-    host = "http://localhost"
+    host = "http://172.16.3.63"
 )
 
 

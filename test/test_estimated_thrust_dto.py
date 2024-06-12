@@ -15,10 +15,10 @@
 
 import unittest
 
-from spacetower_python_client.models.orbital_events_request_dto import OrbitalEventsRequestDto
+from spacetower_python_client.models.estimated_thrust_dto import EstimatedThrustDto
 
-class TestOrbitalEventsRequestDto(unittest.TestCase):
-    """OrbitalEventsRequestDto unit test stubs"""
+class TestEstimatedThrustDto(unittest.TestCase):
+    """EstimatedThrustDto unit test stubs"""
 
     def setUp(self):
         pass
@@ -26,32 +26,33 @@ class TestOrbitalEventsRequestDto(unittest.TestCase):
     def tearDown(self):
         pass
 
-    def make_instance(self, include_optional) -> OrbitalEventsRequestDto:
-        """Test OrbitalEventsRequestDto
+    def make_instance(self, include_optional) -> EstimatedThrustDto:
+        """Test EstimatedThrustDto
             include_option is a boolean, when False only required
             params are included, when True both required and
             optional params are included """
-        # uncomment below to create an instance of `OrbitalEventsRequestDto`
+        # uncomment below to create an instance of `EstimatedThrustDto`
         """
-        model = OrbitalEventsRequestDto()
+        model = EstimatedThrustDto()
         if include_optional:
-            return OrbitalEventsRequestDto(
-                events_type = [
-                    'NODE'
-                    ],
+            return EstimatedThrustDto(
+                var_date = '',
                 id = '',
-                start_date = ''
+                magnitude = 1.337,
+                scale_factors = [
+                    1.337
+                    ],
+                tnw_direction = [
+                    1.337
+                    ]
             )
         else:
-            return OrbitalEventsRequestDto(
-                events_type = [
-                    'NODE'
-                    ],
+            return EstimatedThrustDto(
         )
         """
 
-    def testOrbitalEventsRequestDto(self):
-        """Test OrbitalEventsRequestDto"""
+    def testEstimatedThrustDto(self):
+        """Test EstimatedThrustDto"""
         # inst_req_only = self.make_instance(include_optional=False)
         # inst_req_and_optional = self.make_instance(include_optional=True)
 

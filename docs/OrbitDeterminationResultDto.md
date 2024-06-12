@@ -5,6 +5,7 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
+**estimated_keplerian_covariance** | **object** |  | [optional] 
 **estimated_states** | [**List[OrbitalStateDto]**](OrbitalStateDto.md) |  | [optional] 
 **firing_analysis_report** | [**FiringAnalysisReportDto**](FiringAnalysisReportDto.md) |  | [optional] 
 **id** | **str** |  | [optional] 

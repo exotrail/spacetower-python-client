@@ -10,7 +10,7 @@ Name | Type | Description | Notes
 **id** | **str** |  | [optional] 
 **kappa** | **float** | Secondary scaling parameter. Usually set to 0 | 
 **noise_provider_type** | **str** | Model for the state noise dynamics | 
-**outlier_manager_settings** | [**OutlierManagerSettingsDto**](OutlierManagerSettingsDto.md) |  | [optional] 
+**outlier_manager_settings** | [**OutlierManagerSettingsDto**](OutlierManagerSettingsDto.md) |  | 
 **process_noise_matrix_id** | **str** | UUID of the covariance matrix for the state noise distribution | 
 
 ## Example

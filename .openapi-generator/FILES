@@ -1,6 +1,7 @@
 .github/workflows/python.yml
 .gitignore
 .gitlab-ci.yml
+.openapi-generator-ignore
 .travis.yml
 README.md
 docs/AttitudeActionDto.md
@@ -20,6 +21,7 @@ docs/EphemerisRequestControllerApi.md
 docs/EphemerisRequestDto.md
 docs/EquinoctialOrbitDto.md
 docs/EstimatedParameterDto.md
+docs/EstimatedThrustDto.md
 docs/EventsRequestApi.md
 docs/FiringActionDto.md
 docs/FiringAnalysisDto.md
@@ -140,6 +142,7 @@ spacetower_python_client/models/ephemeris_dto.py
 spacetower_python_client/models/ephemeris_request_dto.py
 spacetower_python_client/models/equinoctial_orbit_dto.py
 spacetower_python_client/models/estimated_parameter_dto.py
+spacetower_python_client/models/estimated_thrust_dto.py
 spacetower_python_client/models/firing_action_dto.py
 spacetower_python_client/models/firing_analysis_dto.py
 spacetower_python_client/models/firing_analysis_report_dto.py
@@ -212,6 +215,7 @@ test/test_ephemeris_request_controller_api.py
 test/test_ephemeris_request_dto.py
 test/test_equinoctial_orbit_dto.py
 test/test_estimated_parameter_dto.py
+test/test_estimated_thrust_dto.py
 test/test_events_request_api.py
 test/test_firing_action_dto.py
 test/test_firing_analysis_dto.py

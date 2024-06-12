@@ -1,6 +1,6 @@
 # spacetower_python_client.TelemetryApi
 
-All URIs are relative to *http://localhost*
+All URIs are relative to *http://172.16.3.63*
 
 Method | HTTP request | Description
 ------------- | ------------- | -------------
@@ -28,10 +28,10 @@ from spacetower_python_client.models.gps_nmea_telemetry_dto import GpsNmeaTeleme
 from spacetower_python_client.rest import ApiException
 from pprint import pprint
 
-# Defining the host is optional and defaults to http://localhost
+# Defining the host is optional and defaults to http://172.16.3.63
 # See configuration.py for a list of all supported configuration parameters.
 configuration = spacetower_python_client.Configuration(
-    host = "http://localhost"
+    host = "http://172.16.3.63"
 )
 
 
@@ -93,10 +93,10 @@ from spacetower_python_client.models.gps_nmea_raw_telemetry_dto import GpsNmeaRa
 from spacetower_python_client.rest import ApiException
 from pprint import pprint
 
-# Defining the host is optional and defaults to http://localhost
+# Defining the host is optional and defaults to http://172.16.3.63
 # See configuration.py for a list of all supported configuration parameters.
 configuration = spacetower_python_client.Configuration(
-    host = "http://localhost"
+    host = "http://172.16.3.63"
 )
 
 
@@ -158,10 +158,10 @@ from spacetower_python_client.models.gps_pv_telemetry_dto import GpsPvTelemetryD
 from spacetower_python_client.rest import ApiException
 from pprint import pprint
 
-# Defining the host is optional and defaults to http://localhost
+# Defining the host is optional and defaults to http://172.16.3.63
 # See configuration.py for a list of all supported configuration parameters.
 configuration = spacetower_python_client.Configuration(
-    host = "http://localhost"
+    host = "http://172.16.3.63"
 )
 
 
@@ -223,10 +223,10 @@ from spacetower_python_client.models.optical_telemetry_dto import OpticalTelemet
 from spacetower_python_client.rest import ApiException
 from pprint import pprint
 
-# Defining the host is optional and defaults to http://localhost
+# Defining the host is optional and defaults to http://172.16.3.63
 # See configuration.py for a list of all supported configuration parameters.
 configuration = spacetower_python_client.Configuration(
-    host = "http://localhost"
+    host = "http://172.16.3.63"
 )
 
 
@@ -288,10 +288,10 @@ from spacetower_python_client.models.radar_telemetry_dto import RadarTelemetryDt
 from spacetower_python_client.rest import ApiException
 from pprint import pprint
 
-# Defining the host is optional and defaults to http://localhost
+# Defining the host is optional and defaults to http://172.16.3.63
 # See configuration.py for a list of all supported configuration parameters.
 configuration = spacetower_python_client.Configuration(
-    host = "http://localhost"
+    host = "http://172.16.3.63"
 )
 
 
@@ -352,10 +352,10 @@ import spacetower_python_client
 from spacetower_python_client.rest import ApiException
 from pprint import pprint
 
-# Defining the host is optional and defaults to http://localhost
+# Defining the host is optional and defaults to http://172.16.3.63
 # See configuration.py for a list of all supported configuration parameters.
 configuration = spacetower_python_client.Configuration(
-    host = "http://localhost"
+    host = "http://172.16.3.63"
 )
 
 
@@ -414,10 +414,10 @@ import spacetower_python_client
 from spacetower_python_client.rest import ApiException
 from pprint import pprint
 
-# Defining the host is optional and defaults to http://localhost
+# Defining the host is optional and defaults to http://172.16.3.63
 # See configuration.py for a list of all supported configuration parameters.
 configuration = spacetower_python_client.Configuration(
-    host = "http://localhost"
+    host = "http://172.16.3.63"
 )
 
 
@@ -478,10 +478,10 @@ import spacetower_python_client
 from spacetower_python_client.rest import ApiException
 from pprint import pprint
 
-# Defining the host is optional and defaults to http://localhost
+# Defining the host is optional and defaults to http://172.16.3.63
 # See configuration.py for a list of all supported configuration parameters.
 configuration = spacetower_python_client.Configuration(
-    host = "http://localhost"
+    host = "http://172.16.3.63"
 )
 
 
