@@ -11,6 +11,7 @@ Name | Type | Description | Notes
 **id** | **str** |  | [optional] 
 **initial_orbital_state** | [**OrbitalStateDto**](OrbitalStateDto.md) |  | [optional] 
 **maximum_duration** | **float** |  | [optional] 
+**no_firing_date_intervals** | [**List[DateIntervalDto]**](DateIntervalDto.md) |  | [optional] 
 **quaternion_step** | **float** |  | [optional] 
 **required_output_orbital_states** | **str** |  | [optional] 
 **strategy** | [**ManeuverStrategyDto**](ManeuverStrategyDto.md) |  | [optional] 

@@ -10,8 +10,9 @@ Name | Type | Description | Notes
 **delta_semi_major_axis** | **float** | Units: [km] | 
 **initial_orbital_state_id** | **str** |  | 
 **maximum_duration** | **float** | Units: [s] | 
+**no_firing_date_intervals** | [**List[DateIntervalDto]**](DateIntervalDto.md) | Date intervals where the maneuver is not allowed to be executed | [optional] 
 **quaternion_step** | **float** | Units: [s] | 
-**required_output_orbital_states** | **str** |  | 
+**required_output_orbital_states** | **str** |  | [optional] 
 **strategy_id** | **str** |  | 
 
 ## Example

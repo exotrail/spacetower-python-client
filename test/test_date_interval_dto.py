@@ -15,10 +15,10 @@
 
 import unittest
 
-from spacetower_python_client.models.residual_dto import ResidualDto
+from spacetower_python_client.models.date_interval_dto import DateIntervalDto
 
-class TestResidualDto(unittest.TestCase):
-    """ResidualDto unit test stubs"""
+class TestDateIntervalDto(unittest.TestCase):
+    """DateIntervalDto unit test stubs"""
 
     def setUp(self):
         pass
@@ -26,27 +26,26 @@ class TestResidualDto(unittest.TestCase):
     def tearDown(self):
         pass
 
-    def make_instance(self, include_optional) -> ResidualDto:
-        """Test ResidualDto
+    def make_instance(self, include_optional) -> DateIntervalDto:
+        """Test DateIntervalDto
             include_option is a boolean, when False only required
             params are included, when True both required and
             optional params are included """
-        # uncomment below to create an instance of `ResidualDto`
+        # uncomment below to create an instance of `DateIntervalDto`
         """
-        model = ResidualDto()
+        model = DateIntervalDto()
         if include_optional:
-            return ResidualDto(
-                var_date = '',
-                id = '',
-                value = 1.337
+            return DateIntervalDto(
+                end = '',
+                start = ''
             )
         else:
-            return ResidualDto(
+            return DateIntervalDto(
         )
         """
 
-    def testResidualDto(self):
-        """Test ResidualDto"""
+    def testDateIntervalDto(self):
+        """Test DateIntervalDto"""
         # inst_req_only = self.make_instance(include_optional=False)
         # inst_req_and_optional = self.make_instance(include_optional=True)
 

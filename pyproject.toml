@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "spacetower_python_client"
-version = "1.0.6"
+version = "1.1.0"
 description = "FDS API"
 authors = ["Exotrail <contact@exotrail.com>"]
 license = "NoLicense"

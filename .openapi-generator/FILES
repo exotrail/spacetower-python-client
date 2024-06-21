@@ -1,7 +1,6 @@
 .github/workflows/python.yml
 .gitignore
 .gitlab-ci.yml
-.openapi-generator-ignore
 .travis.yml
 README.md
 docs/AttitudeActionDto.md
@@ -13,6 +12,7 @@ docs/ChemicalThrusterDto.md
 docs/CircularOrbitDto.md
 docs/CovarianceMatrixApi.md
 docs/CreateUkfOrbitDeterminationConfiguration200Response.md
+docs/DateIntervalDto.md
 docs/DiagonalCovarianceMatrixDto.md
 docs/DragCoefficientEstimationRequestInputDto.md
 docs/ElectricalThrusterDto.md
@@ -135,6 +135,7 @@ spacetower_python_client/models/cartesian_orbit_dto.py
 spacetower_python_client/models/chemical_thruster_dto.py
 spacetower_python_client/models/circular_orbit_dto.py
 spacetower_python_client/models/create_ukf_orbit_determination_configuration200_response.py
+spacetower_python_client/models/date_interval_dto.py
 spacetower_python_client/models/diagonal_covariance_matrix_dto.py
 spacetower_python_client/models/drag_coefficient_estimation_request_input_dto.py
 spacetower_python_client/models/electrical_thruster_dto.py
@@ -207,6 +208,7 @@ test/test_chemical_thruster_dto.py
 test/test_circular_orbit_dto.py
 test/test_covariance_matrix_api.py
 test/test_create_ukf_orbit_determination_configuration200_response.py
+test/test_date_interval_dto.py
 test/test_diagonal_covariance_matrix_dto.py
 test/test_drag_coefficient_estimation_request_input_dto.py
 test/test_electrical_thruster_dto.py
